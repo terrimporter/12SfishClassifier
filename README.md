@@ -18,6 +18,16 @@ If you use this reference set with the RDP classifier please also cite the naive
 
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy. Applied and Environmental Microbiology, 73: 5261.
 
+## How to use
+
+Decompress the tar.gz file:
+
+$ tar -xvzf FileName.tar.gz
+
+Use with the RDP classifier:
+
+java -Xmx8g -jar /path/to/rdp_classifier_2.12/dist/classifier.jar classify -t /path/to/mydata_trained/rRNAClassifier.properties -o ClassifiedQueryFilename QueryFilename
+
 # Releases
 
 ### 12S fish v1.0
