@@ -1,16 +1,16 @@
 # Introduction
 
-This repository contains trained reference sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign fish 12S RNA gene sequences from mtDNA.  The latest releases can be downloaded from https://github.com/terrimporter/12SfishClassifier/releases
+This repository contains trained reference sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign fish 12S mitochondrial gene sequences.  The latest releases can be downloaded from https://github.com/terrimporter/12SfishClassifier/releases
 
 ## Note
 
-This classifier is suitable for classifying fish 12S RNA gene sequences from mtDNA to genus rank.  Reference sequences were obtained from the Mitochondrial Genome Database of Fish (MitoFish) at http://mitofish.aori.u-tokyo.ac.jp/ (Sato et al., 2018) and the sequence for the 12S gene region was retrieved.  Taxonomy is based on the NCBI taxonomy database.
+This classifier is suitable for classifying fish 12S mitochondrial gene sequences to genus rank.  Reference sequences were obtained from the Mitochondrial Genome Database of Fish (MitoFish) at http://mitofish.aori.u-tokyo.ac.jp/ (Sato et al., 2018) and the sequences for the 12S gene region was retrieved.  Taxonomy is based on the NCBI taxonomy database.
 
 ## How to cite
 
 If you use this 12S fish reference set in a publication, please link to this page in your methods section.
 
-Please also cite the MitoFish database:
+Please also cite the MitoFish database where the mitodhonrial genome sequences are available:
 
 Sato, Y., Miya, M., Fukunaga, T., Sado, T., Iwasaki, W., Kumar, S. (2018) MitoFish and MiFish Pipeline: A mitochondrial genome database of fish with an analysis pipeline for environmental DNA metabarcoding.  Molecular Biology and Evolution, 35: 1553.
 
