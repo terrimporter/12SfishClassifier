@@ -1,4 +1,4 @@
-# Introduction
+# 12S MitoFish Reference Set For The RDP Classifier  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4741464.svg)](https://doi.org/10.5281/zenodo.4741464)  
 
@@ -11,7 +11,7 @@ This classifier is suitable for classifying fish 12S mitochondrial gene sequence
 ## How to cite
 
 You can cite this repository directly:  
-12S Fish Classifier, DOI: 10.5281/zenodo.4741464  
+Teresita M. Porter. (2020, April 3). 12S MitoFish Reference Set For The RDP Classifier (Version v1.0.1). Zenodo. http://doi.org/10.5281/zenodo.4741464    
 
 Please also cite the MitoFish database where the mitodhonrial genome sequences are available:
 
