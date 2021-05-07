@@ -1,5 +1,7 @@
 # Introduction
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4741464.svg)](https://doi.org/10.5281/zenodo.4741464)  
+
 This repository contains trained reference sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign fish 12S mitochondrial gene sequences.  The latest releases can be downloaded from https://github.com/terrimporter/12SfishClassifier/releases
 
 ## Note
@@ -8,7 +10,8 @@ This classifier is suitable for classifying fish 12S mitochondrial gene sequence
 
 ## How to cite
 
-If you use this 12S fish reference set in a publication, please link to this page in your methods section.
+You can cite this repository directly:  
+12S Fish Classifier, DOI: 10.5281/zenodo.4741464  
 
 Please also cite the MitoFish database where the mitodhonrial genome sequences are available:
 
@@ -95,4 +98,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: March 31, 2021
+Last updated: May 6, 2021
