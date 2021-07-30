@@ -44,7 +44,7 @@ tar -xvf mydata_trained.tar.gz
 # If it was installed using conda, run it like this:
 rdp_classifier -Xmx8g classify -t /path/to/mydata_trained/rRNAClassifier.properties -o rdp.output query.fasta
 # Otherwise run it using java like this:
-java -Xmx8g -jar /path/to/rdp_classifier_2.13/classifier.jar -t /path/to/mydata_trained/rRNAClassifie
+java -Xmx8g -jar /path/to/rdp_classifier_2.13/classifier.jar -t /path/to/mydata_trained/rRNAClassifier
 ```
 
 # Releases
