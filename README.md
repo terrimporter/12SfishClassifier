@@ -65,8 +65,8 @@ Superkingdom | 0 | 0 | 0 | 0 | 0
 Kingdom | 0 | 0 | 0 | 0 | 0
 Phylum | 0 | 0 | 0 | 0 | 0
 Class | 0 | 0 | 0 | 0 | 0
-Order | 50 | 40 | 40 | 40 | 50
-Family | 95 | 95 | 90 | 80 | 90
+Order | 0.50 | 0.40 | 0.40 | 0.40 | 0.50
+Family | 0.95 | 0.95 | 0.90 | 0.80 | 0.90
 Genus | NA | NA | NA | NA | NA
 Species | NA | NA | NA | NA | NA
 
@@ -80,13 +80,29 @@ Superkingdom | 0 | 0 | 0 | 0 | 0
 Kingdom | 0 | 0 | 0 | 0 | 0
 Phylum | 0 | 0 | 0 | 0 | 0
 Class | 0 | 0 | 0 | 0 | 0
-Order | 0 | 0 | 0 | 10 | 30
-Family | 10 | 20 | 20 | 20 | 30
+Order | 0 | 0 | 0 | 0.10 | 0.30
+Family | 0.10 | 0.20 | 0.20 | 0.20 | 0.30
 Genus | NA | NA | NA | NA | NA
 Species * | NA | NA | NA | NA | NA
 
 * Leave one sequence out testing (LOOT) is unreliable at this rank because most species are only represented by a single reference sequence.  LOOT testing is only conducted on non-singleton taxa.
 NA = No cutoff available will result in 95% correct assignments
+
+#### Bootstrap support cutoffs, 90% accuracy:
+
+Rank | Full | 400 bp | 300 bp | 200 bp | 100 bp
+--- |:---:|:---:|:---:|:---:|:---:
+Superkingdom | 0 | 0 | 0 | 0 | 0
+Kingdom | 0 | 0 | 0 | 0 | 0
+Phylum | 0 | 0 | 0 | 0 | 0
+Class | 0 | 0 | 0 | 0 | 0
+Order | 0 | 0 | 0 | 0 | 0
+Family | 0 | 0 | 0 | 0 | 0.20
+Genus | 0.80 | 0.80 | 0.80 | 0.70 | 0.80
+Species * | NA | NA | NA | NA | NA
+
+* Leave one sequence out testing (LOSO) is unreliable at this rank because most species are only represented by a single reference sequence.  LOSO testing is only conducted on non-singleton taxa.
+NA = No cutoff available will result in 90% correct assignments
 
 # References
 
@@ -98,4 +114,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: May 6, 2021
+Last updated: July 19, 2022
